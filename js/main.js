@@ -70,3 +70,24 @@ exploreBtn.addEventListener('click', () => {
     behavior: 'smooth',
   });
 });
+
+new Glide('.glide', {
+  type: 'carousel',
+  startAt: 0,
+  perView: 4,
+  gap: 0,
+  animationDuration: 500,
+  autoplay: 3000,
+
+  breakpoints: {
+    1366: {
+      perView: 3,
+    },
+    916: {
+      perView: 2,
+    },
+    460: {
+      perView: 1,
+    },
+  },
+}).mount();
