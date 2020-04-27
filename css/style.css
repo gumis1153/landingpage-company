@@ -309,8 +309,6 @@ header .mobileNavBtn div:nth-of-type(3) {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   z-index: 0;
-  -webkit-animation: appear 1.2s ease;
-          animation: appear 1.2s ease;
 }
 
 #home .yellow_big {

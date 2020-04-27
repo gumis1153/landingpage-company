@@ -91,3 +91,18 @@ new Glide('.glide', {
     },
   },
 }).mount();
+
+const svg = document.querySelectorAll('#home svg');
+
+// naprawa buga z pojawiającymi się kropkami po scrollu do góry
+window.onload = () => {
+  svg.forEach((i) => {
+    i.style.animation = 'appear 1.2s ease';
+  });
+
+  window.setTimeout(() => {
+    svg.forEach((i) => {
+      i.style.animation = 'none';
+    });
+  }, 1200);
+};
