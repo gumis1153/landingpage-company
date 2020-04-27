@@ -248,6 +248,7 @@ header {
     transform: translate(-50%, 0%);
     transition: 0.5s ease;
     z-index: 0;
+    opacity: 0;
     // animation: appear 1.2s ease;
   }
 
@@ -501,7 +502,7 @@ header {
     color: #595959;
     z-index: 1;
 
-    @media (max-width:530px) {
+    @media (max-width: 530px) {
       font-size: 12px;
     }
   }
@@ -552,12 +553,12 @@ header {
     transform: translate(-50%, -50%);
     z-index: 3;
 
-    @media (max-height:550px) {
+    @media (max-height: 550px) {
       top: 70%;
       height: 300px;
     }
 
-    @media (max-height:440px) {
+    @media (max-height: 440px) {
       top: 80%;
       height: 250px;
     }
@@ -592,18 +593,18 @@ header {
             transform: translate(-50%, -50%);
             width: 90%;
             height: 90%;
-            background-color: rgba(48, 56, 66, .66);
-            transition: .3s ease;
+            background-color: rgba(48, 56, 66, 0.66);
+            transition: 0.3s ease;
             cursor: pointer;
           }
 
-          @media (max-height:550px) {
+          @media (max-height: 550px) {
             &::after {
               line-height: 270px;
             }
           }
 
-          @media (max-height:440px) {
+          @media (max-height: 440px) {
             &::after {
               line-height: 225px;
             }
@@ -656,8 +657,8 @@ header {
         i {
           font-size: 36px;
           color: #ffffff;
-          opacity: .5;
-          transition: .3s ease;
+          opacity: 0.5;
+          transition: 0.3s ease;
         }
       }
     }

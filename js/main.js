@@ -103,6 +103,7 @@ window.onload = () => {
   window.setTimeout(() => {
     svg.forEach((i) => {
       i.style.animation = 'none';
+      i.style.opacity = 1;
     });
   }, 1200);
 };

@@ -309,6 +309,7 @@ header .mobileNavBtn div:nth-of-type(3) {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   z-index: 0;
+  opacity: 0;
 }
 
 #home .yellow_big {
@@ -756,8 +757,8 @@ header .mobileNavBtn div:nth-of-type(3) {
   width: 90%;
   height: 90%;
   background-color: rgba(48, 56, 66, 0.66);
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
   cursor: pointer;
 }
 
@@ -827,9 +828,9 @@ header .mobileNavBtn div:nth-of-type(3) {
 #slider .glide .glide__arrows button i {
   font-size: 36px;
   color: #ffffff;
-  opacity: .5;
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
+  opacity: 0.5;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 #slider svg {
